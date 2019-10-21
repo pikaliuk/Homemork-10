@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Federo', sans-serif;
+	text-transform: uppercase;
+
+}
+
+/*ПЕРВОЕ ЗАДАНИЕ*/
+
+.blue-box {
+	background-color: thistle;
+	min-height: 1500px;
+
+
+}
+
+.item {
+	background: darkslateblue;
+	text-align:center;
+	border:1px solid green;
+	min-height: 50px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*ЗАДАНИЕ НОМЕР ДВА*/
+
+
+.news {
+		background: #FFF;
+		min-height: 390px;
+}
+
+.main_photo{
+	background: url('img/1.jpg')center no-repeat,linear-gradient(to right, rgba(0, 0, 0, 0.85) 5%, rgba(187, 178, 100, 0.3) 90%);
+	background-size: cover;
+	min-height: 390px;
+}
+
+
+
+.blok1 {
+	background: url('img/5.jpg')center no-repeat;
+	background-size: cover;
+	min-height: 180px;
+}
+.blok2 {
+	background: url('img/2.jpg')center no-repeat;
+	background-size: cover;
+	min-height: 180px;
+}
+
+.blok3 {
+	background: url('img/4.jpg')center no-repeat;
+	background-size: cover;
+	min-height: 180px;
+}
+
+.blok4 {
+	background: url('img/7.jpg')center no-repeat;
+	background-size: cover;
+	min-height: 180px;
+}
+
+.h2-text {
+	font-size: 11px;
+}
+
+.data-text {
+	font-size: 10px;
+	color: grey;
+}
+
+
+h1 {
+	color: #fff;
+	margin-top: 20px;
+}
+.h2-text,.data-text {
+	padding: 10px 10px 2px;
+}
+
+.header_container {
+	position: absolute;
+}
+.header-h1 {
+	position: relative;
+    top: 38vh;
+    padding: 20px 100px 20px 29px;
+}
+
+
+.author {
+	width: 40px; 
+    height: 40px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.author img {
+	display: block;
+    width:150%;
+    filter: grayscale(100%); 
+
+}
+
+
+.work2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*ЗАДАНИЕ НОМЕР ТРИ*/
+.item2 {
+    background: grey;
+	text-align:center;
+	border:1px solid aqua;
+	min-height: 50px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
